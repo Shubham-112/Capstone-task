@@ -2,7 +2,7 @@ import sys
 from Addition import Addition
 from Multiply import Multiply
 from Division import Division
-from Subtract import Subtract
+from Subtraction import Subtraction
 
 print("Enter the operation to perform")
 print("1. Addition")
