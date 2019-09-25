@@ -11,3 +11,20 @@ print("3. Division")
 print("4. Multiplication")
 
 inp = input()
+
+if(inp=="1"):
+    op = Addition()
+elif(inp=="2"):
+    op = Subtraction()
+elif(inp=="3"):
+    op = Division()
+elif(inp=="4"):
+    op = Multiply()
+else:
+    print("Wrong input given")
+    sys.exit(0)
+
+    
+a = input("A:")
+b = input("B:")
+print(op.operation(a,b))

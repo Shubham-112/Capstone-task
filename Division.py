@@ -3,4 +3,5 @@ class Division:
         print("Division object created")
         
     def operation(self, a, b):
-        print("Division of a and b:"+str(a/b))
+        res = int(a)/int(b)
+        print("Division of a and b:"+str(res))

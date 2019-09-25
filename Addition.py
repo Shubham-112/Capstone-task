@@ -3,4 +3,5 @@ class Addition:
         print("Addition object created")
         
     def operation(self, a, b):
-        print("Addition:" + str(a+b))
+        res = int(a)+int(b)
+        print("Addition:" + str(res))

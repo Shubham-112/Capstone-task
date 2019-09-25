@@ -3,5 +3,6 @@ class Multiply:
         print("Multiply object created")
 
     def operation(self, a, b):
-        print("Multiplication of a and b:"+str(a*b))
+        res = int(a)*int(b)
+        print("Multiplication of a and b:"+str(res))
         

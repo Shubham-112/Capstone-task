@@ -3,6 +3,7 @@ class Subtraction:
         print("Subtraction:")
         
     def operation(self, a, b):
-        print("Subtraction result:" + str(a-b))
+        res = int(a)-int(b)
+        print("Subtraction result:" + str(res))
         
         
