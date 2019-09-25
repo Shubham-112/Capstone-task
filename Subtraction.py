@@ -1,4 +1,4 @@
-class Subtaction:
+class Subtraction:
     def __init__(self):
         print("Subtraction:")
         
