@@ -4,5 +4,5 @@ class Multiply:
 
     def operation(self, a, b):
         res = int(a)*int(b)
-        print("Multiplication of a and b:"+str(res))
+        print("Multiplicatio of a and b:"+str(res))
         
